@@ -1,37 +1,26 @@
 # FE Linter Configs
 
-## 当前仓库
+## 安装
 
 ```shell
-# 安装依赖
-npm install
-npm install yalc -g
-
-# 发布
-npm run pub
-```
-
-## 项目仓库
-
-### 安装
-
-```shell
-# 从 GitHub 安装
+# 远程使用：从 GitHub 安装
 npm install https://github.com/jianhee/linter-configs.git -D
 
-# 从 yalc 安装
+# 本地使用：从 yalc 安装
 yalc add linter-configs -D
 ```
 
-### 配置 VS Code
+## 配置
+
+### VS Code
 
 把 `.vscode` 文件夹复制到项目根目录下
 
-### 配置 EditorConfig
+## EditorConfig
 
 把 `.editorconfig` 文件复制到项目根目录下
 
-### 配置 Prettier
+## Prettier
 
 在配置文件中，比如 `.prettierrc`, `.prettierrc.json`, `.prettierrc.js`, `prettier.config.js`
 
@@ -47,7 +36,7 @@ module.exports = require('linter-configs/prettier');
 }
 ```
 
-### 配置 ESlint
+## ESlint
 
 在配置文件中，比如 `.eslintrc.js`, `.eslintrc.json`
 
@@ -67,7 +56,7 @@ module.exports = {
 }
 ```
 
-### 配置 StyleLint
+## StyleLint
 
 在配置文件中，比如 `stylelint.config.js`, `.stylelintrc.js`, `.stylelintrc.json`
 
