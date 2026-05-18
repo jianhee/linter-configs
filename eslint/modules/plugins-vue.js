@@ -21,10 +21,8 @@ module.exports = {
 
   // Vue 推荐规则
   extends: [
-    // Vue2
-    // 'plugin:vue/recommended',
-    // Vue3
-    // 'plugin:vue/vue3-recommended'
+    // 'plugin:vue/recommended',      // Vue2 使用
+    // 'plugin:vue/vue3-recommended'  // Vue3 使用
   ],
 
   // Vue 规则
