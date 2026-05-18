@@ -1,19 +1,8 @@
 {
   "name": "linter-configs",
   "version": "1.0.0",
-  "description": "Linter Configs",
-  "main": "index.js",
-  "keywords": [],
+  "description": "FE Linter Configs",
   "author": "jianhe",
-  "license": "ISC",
-  "homepage": "https://github.com/jianhee/linter-configs#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jianhee/linter-configs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jianhee/linter-configs/issues"
-  },
   "scripts": {
     "pub": "node publish.js"
   },

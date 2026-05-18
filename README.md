@@ -18,6 +18,7 @@ npm run pub
 ```shell
 # 从 GitHub 安装
 npm install https://github.com/jianhee/linter-configs.git -D
+
 # 从 yalc 安装
 yalc add linter-configs -D
 ```
