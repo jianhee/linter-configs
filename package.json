@@ -4,6 +4,7 @@
   "description": "FE Linter Configs",
   "author": "jianhe",
   "scripts": {
+    "clean": "rimraf node_modules",
     "pub": "node publish.js"
   },
   "dependencies": {
@@ -15,13 +16,17 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.6.0",
     "eslint-plugin-vue": "^9.32.0",
-    "postcss-html": "^1.8.0",
-    "prettier": "^3.5.3",
-    "stylelint": "^16.15.0",
+    "postcss": "^8.5.15",
+    "postcss-html": "^1.8.1",
+    "postcss-scss": "^4.0.9",
+    "prettier": "^3.8.3",
+    "stylelint": "^17.12.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^6.0.0",
-    "stylelint-config-standard": "^37.0.0",
-    "stylelint-config-standard-scss": "^14.0.0"
+    "stylelint-config-recess-order": "^7.7.0",
+    "stylelint-config-recommended-scss": "^17.0.1",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-order": "^8.1.1"
   },
   "devDependencies": {
     "shelljs": "^0.10.0"

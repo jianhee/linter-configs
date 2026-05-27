@@ -1,6 +1,6 @@
 // Prettier Config
 // 文档：https://prettier.io/
-// 安装：npm install -D prettier
+// 安装：yarn add prettier
 
 module.exports = {
   // 关联 JSON Schema 定义，提供智能提示和验证

@@ -1,6 +1,6 @@
 // Vue 插件
 // 文档：https://eslint.vuejs.org/
-// 安装：npm install -D eslint-plugin-vue
+// 安装：yarn add eslint-plugin-vue
 // 1.用于解析 .vue 文件的 <script> 和 <template> 标签中的代码
 // 2.提供针对 Vue 语法的 `vue-eslint-parser` 解析器
 // 3.提供针对 Vue 语法的的规则

@@ -1,6 +1,6 @@
 // StyleLint 基础配置
 // 文档：https://stylelint.io/
-// 安装：npm install -D stylelint
+// 安装：yarn add stylelint
 // 说明：和 ESLint 规则类似
 
 module.exports = {

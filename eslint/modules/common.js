@@ -1,6 +1,6 @@
 // ESLint 基础配置
 // 文档：https://eslint.org/
-// 安装：npm install -D eslint
+// 安装：yarn add eslint
 
 module.exports = {
   // 是否是顶级目录
