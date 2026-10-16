@@ -7,6 +7,7 @@
   // 是否在保存时修复错误
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit"
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.markdownlint": "explicit"
   }
 }

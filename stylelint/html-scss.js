@@ -1,4 +1,4 @@
-// StyleLint Config For CSS + HTML/Vue
+// StyleLint Config For SCSS + HTML/Vue
 
 module.exports = {
   extends: [

@@ -1,11 +1,10 @@
 // ESLint Config For ES6 + HTML
 
-module.exports = {
-  extends: [
-    // ...
-    require.resolve('./modules/extends-standard'),
-    require.resolve('./modules/parser-babel'),
-    require.resolve('./modules/plugins-html'),
-    require.resolve('./modules/common')
-  ]
-};
+const es6 = require('./es6');
+const html = require('./modules/plugins-html');
+
+module.exports = [
+  // ...
+  ...es6,
+  ...html
+];

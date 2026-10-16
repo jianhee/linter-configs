@@ -1,0 +1,50 @@
+/* Stylelint SCSS 规则测试 */
+
+// 变量
+$primary-color: #333;
+$font-size-base: 14px;
+
+// BEM 类名
+.block {
+  font-size: $font-size-base;
+  color: $primary-color;
+  &__element {
+    display: block;
+  }
+  &--modifier {
+    color: #f00;
+  }
+}
+
+// 属性顺序
+.card {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  padding: 16px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+// 嵌套规则
+.nav {
+  &__list {
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    display: inline-block;
+    margin-right: 8px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

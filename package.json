@@ -1,41 +1,41 @@
 {
   "name": "linter-configs",
-  "version": "1.0.0",
+  "version": "2.5.2",
   "description": "FE Linter Configs",
   "author": "jianhe",
   "scripts": {
     "clean": "rimraf node_modules",
-    "pub": "node publish.js"
+    "pub:git": "node publish-git.js",
+    "pub:local": "node publish-local.js",
+    "pub:all": "npm run pub:git && npm run pub:local"
   },
   "dependencies": {
-    "@babel/core": "^7.26.9",
-    "@babel/eslint-parser": "^7.26.8",
-    "eslint": "^8.57.1",
+    "@eslint/eslintrc": "^3.3.7",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-promise": "^6.6.0",
-    "eslint-plugin-vue": "^9.32.0",
-    "postcss": "^8.5.15",
-    "postcss-html": "^1.8.1",
-    "postcss-scss": "^4.0.9",
-    "prettier": "^3.8.3",
-    "stylelint": "^17.12.0",
-    "stylelint-config-html": "^1.1.0",
-    "stylelint-config-recess-order": "^7.7.0",
-    "stylelint-config-recommended-scss": "^17.0.1",
+    "eslint-plugin-html": "^8.2.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.4.1",
+    "eslint-plugin-perfectionist": "^5.12.1",
+    "eslint-plugin-promise": "^7.3.0",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "eslint-plugin-vue": "^10.11.1",
+    "eslint-plugin-vuejs-accessibility": "^2.6.2",
+    "globals": "^17.13.0",
+    "markdownlint": "^0.41.1",
+    "prettier": "^3.9.10",
+    "stylelint": "^17.16.0",
+    "stylelint-config-html": "^2.0.0",
+    "stylelint-config-recess-order": "^7.8.0",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
-    "stylelint-order": "^8.1.1"
+    "vue-eslint-parser": "^10.4.1"
   },
   "devDependencies": {
     "shelljs": "^0.10.0"
-  },
-  "prettier": "./prettier",
-  "eslintConfig": {
-    "extends": "./eslint/vue3"
-  },
-  "stylelint": {
-    "extends": "./stylelint/html-scss"
   }
 }

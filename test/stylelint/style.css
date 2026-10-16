@@ -1,0 +1,25 @@
+/* Stylelint CSS 规则测试 */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+}
+.button--primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.button__icon {
+  margin-right: 4px;
+}

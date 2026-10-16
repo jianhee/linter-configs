@@ -1,0 +1,42 @@
+{
+  // Markdownlint Config
+  // 文档：https://github.com/DavidAnson/markdownlint
+  // 规则参考：https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+  // 标题层级最多到 h3
+  "MD001": { "front_matter_title": "" },
+  // 标题风格：# 开头
+  "MD003": { "style": "atx" },
+  // 无序列表符号统一为 -
+  "MD004": { "style": "dash" },
+  // 列表缩进
+  "MD007": { "indent": 2 },
+  // 行尾空格
+  "MD009": { "br_spaces": 2 },
+  // 空行数量：最多 1 行
+  "MD012": { "maximum": 1 },
+  // 标题内容长度不限制
+  "MD013": false,
+  // 标题前空行
+  "MD022": true,
+  // 标题后空行
+  "MD023": true,
+  // 不允许重复标题
+  "MD024": { "siblings_only": true },
+  // 不允许尾随标点出现在标题中
+  "MD026": { "punctuation": ".,;:!?。，；：！？" },
+  // 列表前空行
+  "MD032": true,
+  // 链接必须有描述文本
+  "MD036": false,
+  // 代码块语言必须标注
+  "MD040": true,
+  // 链接标题必须有
+  "MD045": true,
+  // 代码块风格：围栏式
+  "MD046": { "style": "fenced" },
+  // 强调符号统一为 *
+  "MD049": { "style": "asterisk" },
+  // 加粗符号统一为 **
+  "MD050": { "style": "asterisk" }
+}
